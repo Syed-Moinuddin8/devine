@@ -49,7 +49,7 @@ export default function AboutContact() {
           <div className="relative rounded-sm overflow-hidden aspect-video border border-white/5 bg-[#111111]">
             {/* Grab limited edition banner */}
             <img
-              src="/src/assets/images/limited_edition_banner_1783314954500.jpg"
+              src="/limited_edition_banner_1783314969320.jpg"
               alt="DEVINE Campaign Shoot"
               className="h-full w-full object-cover object-center scale-102"
               referrerPolicy="no-referrer"

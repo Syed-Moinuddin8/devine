@@ -8,7 +8,7 @@ export const products: Product[] = [
     price: 3499,
     originalPrice: 4999,
     images: [
-      '/src/assets/images/hero_streetwear_devine_1783314954500.jpg', // Our custom flagship generated image!
+      '/hero_streetwear_devine_1783314954500.jpg', // Our custom flagship generated image!
       'https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop'
     ],
@@ -237,7 +237,7 @@ export const products: Product[] = [
     price: 1499,
     originalPrice: 1999,
     images: [
-      '/src/assets/images/limited_edition_banner_1783314969320.jpg', // Showing the chain on model!
+      '/limited_edition_banner_1783314969320.jpg', // Showing the chain on model!
       'https://images.unsplash.com/photo-1611085583191-a3b1a30a5a4a?q=80&w=800&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1598530025111-f39c14809f53?q=80&w=800&auto=format&fit=crop'
     ],

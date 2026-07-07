@@ -14,7 +14,7 @@ const dbStore = {
           quantity: 1,
           color: '#000000',
           size: 'XL',
-          image: '/src/assets/images/hero_streetwear_devine_1783314954500.jpg'
+          image: '/hero_streetwear_devine_1783314954500.jpg'
         }
       ],
       total: 3499,

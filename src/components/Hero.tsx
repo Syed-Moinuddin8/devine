@@ -8,8 +8,8 @@ interface HeroProps {
 }
 
 export default function Hero({ onShopClick, onExploreClick }: HeroProps) {
-  // Let's grab our generated flagship image!
-  const heroImage = '/src/assets/images/hero_streetwear_devine_1783314954500.jpg';
+  // Use public folder path for Vercel deployment
+  const heroImage = '/hero_streetwear_devine_1783314954500.jpg';
 
   const stats = [
     { label: 'GLOBAL STORES', value: '18+', icon: Trophy },
