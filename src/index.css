@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Bebas Neue', 'Impact', sans-serif;
+  --font-button: 'Montserrat', sans-serif;
+
+  --color-brand-black: #000000;
+  --color-brand-dark: #111111;
+  --color-brand-accent: #C9A227;
+  --color-brand-white: #FFFFFF;
+  --color-brand-light-grey: #F7F7F7;
+  --color-brand-dark-grey: #2A2A2A;
+}
+
+/* Custom styles for luxury styling */
+@layer base {
+  body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.025em;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Custom Scrollbar for Luxury minimalist look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+::-webkit-scrollbar-thumb {
+  background: #C9A227;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e5b72c;
+}
+
+.text-stroke-accent {
+  -webkit-text-stroke: 1px #C9A227;
+  color: transparent;
+}
+
+/* Immersive UI utility classes */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card-gradient {
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.grid-pattern {
+  background-image: radial-gradient(rgba(201, 162, 39, 0.12) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.headline {
+  font-family: 'Arial Black', 'Bebas Neue', sans-serif;
+  text-transform: uppercase;
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+}
+
+.bebas {
+  font-family: 'Bebas Neue', 'Impact', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+

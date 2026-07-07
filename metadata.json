@@ -1,0 +1,6 @@
+{
+  "name": "DEVINE Premium Streetwear",
+  "description": "An award-winning luxury streetwear e-commerce platform for DEVINE, featuring cinematic designs, AI product search, 360-degree previews, an interactive admin panel, and high-fidelity checkout.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
